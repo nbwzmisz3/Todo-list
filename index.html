@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=scri, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/072ed90b8d.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./styles.css">
+  <title>Lista Zadań - TODO</title>
+</head>
+<body>
+  <div class="container">
+    <header class="text-center text-light my-4">
+      <h1 class="mb-4">Lista Zadań - TODO</h1>
+      <form class="search">
+        <input type="text" name='search' class="form-control m-auto" placeholder="Wyszukaj zadanie"/>
+      </form>
+    </header>
+
+    <ul class="list-group todos mx-auto text-light">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Zadanie #1</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Zadanie #2</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Zadanie #3</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+    </ul>
+
+    <form class="add text-center my-4">
+      <label for="" class="text-light">Dodaj następne zadanie</label>
+      <input type="text" name='add' class="form-control m-auto">
+    </form>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
